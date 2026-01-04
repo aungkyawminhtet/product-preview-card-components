@@ -21,7 +21,7 @@ const AddToCardBtn = ({
     <>
       <button
         style={{ width: width }}
-        className={`flex items-center justify-center gap-x-2 py-3 rounded-xl shadow-2xl bg-${bgColor} cursor-pointer transition-all duration-300`}
+        className={`flex items-center justify-center gap-x-2 py-3 rounded-xl shadow-2xl bg-teal-600 cursor-pointer transition-all duration-300`}
         disabled={disabled}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
